@@ -17,27 +17,27 @@ import urllib.request
 # share link: https://drive.google.com/file/d/FILE_ID/view
 CHECKPOINTS = {
     "config_A_best.pt": {
-        "id":   "GDRIVE_FILE_ID_CONFIG_A",
+        "id":   "1e6Mj_VaC6F7YNuygJD2Yh9BihoWFUrvg",
         "desc": "Baseline DDPM (MSE only, no CFG, no FANP)"
     },
     "config_B_best.pt": {
-        "id":   "GDRIVE_FILE_ID_CONFIG_B",
+        "id":   "1NMNgCz-IL41W_SZtbgbf4oHHdrzdoNEB",
         "desc": "Config B: +CFG only (w=1.5 at inference)"
     },
     "config_C_best.pt": {
-        "id":   "GDRIVE_FILE_ID_CONFIG_C",
+        "id":   "1Bhtldpv0iCSeuR5kBC9ZRTgmxYDhKApb",
         "desc": "Config C: +FANP only (lambda=0.01)"
     },
     "config_D_best.pt": {
-        "id":   "GDRIVE_FILE_ID_CONFIG_D",
+        "id":   "1W9_s_Nsi-7IXO7TkB4vxoHxmpq37crXk",
         "desc": "Config D: Proposed (CFG + FANP combined)"
     },
     "p2p_best.pt": {
-        "id":   "GDRIVE_FILE_ID_P2P",
+        "id":   "1h1-2m3uqXt55MyfbyJgh8DF_3FQZf2w6",
         "desc": "Pix2Pix GAN baseline"
     },
     "wgan_best.pt": {
-        "id":   "GDRIVE_FILE_ID_WGAN",
+        "id":   "1tzVayDAbcdc5agCk7QOs9-Vvk5LHxv6H",
         "desc": "WGAN-VGG GAN baseline"
     },
 }
